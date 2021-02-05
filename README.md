@@ -39,5 +39,6 @@ If you would like to replicate the results of Table 78from T1-4 to T3-5, please 
 python test_function_trojan_10K.py 
 
 ```
+Each of these scripts, when being run will ask for how many times you want each test case to execute. For our paper, we gave 20 as input for this. We recommend you to do the same. Please note that, our tool is random in nature and it might happen that the results don't match exactly to the numbers given in the paper. we hope after reading our paper you could understand why you observe this behaviour.
 
 Please keep in mind these cases take a significant amount of time to produce the results. All the results are written in a ```.txt``` file inside the ```Òutput\``` folder
