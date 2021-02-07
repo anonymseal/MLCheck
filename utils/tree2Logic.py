@@ -9,20 +9,13 @@ import numpy as np
 from sklearn.tree import DecisionTreeClassifier
 
 import fileinput
-
-import graphviz
-
 import os
-import json
 try:
     from StringIO import StringIO
 except ImportError:
     from io import StringIO
 import pydot 
 import re
-
-
-# In[2]:
 
 
 from sklearn.tree import _tree
