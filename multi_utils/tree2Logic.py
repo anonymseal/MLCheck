@@ -1,15 +1,4 @@
 
-# coding: utf-8
-
-# In[ ]:
-
-
-
-# coding: utf-8
-
-# In[1]:
-
-
 import pandas as pd
 import csv as cv
 import sys
@@ -19,8 +8,6 @@ import numpy as np
 from sklearn.tree import DecisionTreeClassifier
 
 import fileinput
-
-import graphviz
 
 import os
 import json
