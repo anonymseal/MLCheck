@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
 
 import torch
 import torchvision
@@ -13,9 +8,6 @@ import torch.nn.functional as F
 import torch.optim as optim
 import pandas as pd
 import csv as cv
-
-
-# In[ ]:
 
 
 class ConvertDNN2logic:
