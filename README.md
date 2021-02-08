@@ -5,7 +5,7 @@ This repository contains the necessary codes and datasets to replicate the resul
 Then obtain the required libraries and packages:
 ```
 conda env create -f environment.yml
-conda activate myenv
+conda activate mlcheck
 ```
 After installing the necessary packages, you can run several commands to see our results. As our tool need a significant amount of time to run all the test cases, we don't show the results for all the test cases mentioned in the paper. 
 ## Important
