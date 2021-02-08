@@ -975,24 +975,12 @@ def Assert(*args):
         os.remove('CandidateSetInst.csv')
     if os.path.exists('CandidateSetBranch.csv'):
         os.remove('CandidateSetBranch.csv')
-    '''
-    if os.path.exists('dict.csv'):
-        os.remove('dict.csv')
-    '''
+   
     if os.path.exists('TestDataSMT.csv'):
         os.remove('TestDataSMT.csv')
     if os.path.exists('TestDataSMTMain.csv'):
         os.remove('TestDataSMTMain.csv')
-    '''
-    if os.path.exists('feNameType.csv'):
-        os.remove('feNameType.csv')
-    if os.path.exists('TestingData.csv'):
-        os.remove('TestingData.csv')
-    if os.path.exists('TestingSet.csv'):
-        os.remove('TestingSet.csv')
-    if os.path.exists('TestSet.csv'):
-        os.remove('TestSet.csv')
-    '''    
+   
     if os.path.exists('DecSmt.smt2'):
         os.remove('DecSmt.smt2')
     if os.path.exists('ToggleBranchSmt.smt2'):
@@ -1010,10 +998,7 @@ def Assert(*args):
         os.remove('MUTWeight.txt')
     if os.path.exists('ConditionFile.txt'):
         os.remove('ConditionFile.txt')
-    if os.path.exists('datasetFile.txt'):
-        os.remove('datasetFile.txt')
-    if os.path.exists('dataset.txt'):
-        os.remove('dataset.txt')
+    
 
     if os.path.exists('MUTWeight.csv'):
         os.remove('MUTWeight.csv')
@@ -1028,10 +1013,7 @@ def Assert(*args):
         os.remove('TestDataSet.csv')
     if os.path.exists('CandTestDataSet.csv'):
         os.remove('CandTestDataSet.csv')
-    if os.path.exists('param_init.csv'):
-        os.remove('param_init.csv')
-    if os.path.exists('Output.txt'):
-        os.remove('Output.txt')
+   
 
 
 
